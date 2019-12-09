@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+html {
+  #background: url('../images/Background.png') no-repeat center center fixed;
+  #background-size: contain;
+  #overflow: hidden;
+  #height: 100%;
+}
+
+body {
+  font-family: Arvo, 'Raleway', sans-serif;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #8e15a1;
+}
+
+.main {
+  display: flex;
+  padding-top: 5%;
+}
+
+.main div {
+  width: 50%;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar div {
+  width: 50%;
+}
+
+.navbar-right {
+  text-align: right;
+}
+
+.info-image {
+  text-align: right;
+}
+
+.info-panel {
+  text-align: left;
+  margin-left: 3em;
+}
+
+.info-panel p {
+  font-size: 1.17em;
+}
+
+.social-inline {
+  display: flex;
+}
+
+.social-inline p {
+  margin: 20px 10px;
+}
+
+#logo-text {
+  font-family: Lobster, Arvo, cursive, sans-serif;
+  color: #44c24c;
+  font-size: 3.5em;
+  padding-left: 1em;
+}
+
+#orange {
+  color: #c2771b;
+}
