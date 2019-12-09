@@ -15,12 +15,12 @@ body {
 
 a {
   text-decoration: none;
-  color: #8e15a1;
+  color: #9f54d1;
 }
 
 .main {
   display: flex;
-  padding-top: 5%;
+  margin-top: 5%;
 }
 
 .main div {
@@ -35,8 +35,22 @@ a {
   width: 50%;
 }
 
+.navbar-left {
+  font-family: Lobster, Arvo, cursive, sans-serif;
+  color: #44c24c;
+  display: flex;
+}
+
+.navbar-left {
+
+}
+
 .navbar-right {
   text-align: right;
+}
+
+.nav-link {
+  margin: 0.6em;
 }
 
 .info-image {
@@ -61,10 +75,14 @@ a {
 }
 
 #logo-text {
-  font-family: Lobster, Arvo, cursive, sans-serif;
-  color: #44c24c;
   font-size: 3.5em;
   padding-left: 1em;
+  margin: 0.6em;
+}
+
+#nav-button {
+  margin: 2.5em;
+  margin-right: 0px;
 }
 
 #orange {
