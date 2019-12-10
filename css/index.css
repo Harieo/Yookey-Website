@@ -76,7 +76,7 @@ a {
 
 #logo-text {
   font-size: 3.5em;
-  padding-left: 1em;
+  padding-left: 0.5em;
   margin: 0.6em;
 }
 
@@ -85,6 +85,14 @@ a {
   margin-right: 0px;
 }
 
+#nav-button:hover {
+  text-decoration: underline;
+}
+
 #orange {
   color: #c2771b;
+}
+
+#red {
+  color: red;
 }
